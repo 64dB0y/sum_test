@@ -1,8 +1,8 @@
-#include <stdio.h>
+// sum.cpp
 #include "sum.h"
 
-int main(){
-	int s=sum(10);
-	printf("result=%d\n",s);
+int sum(int n) {
+	return n*(n - 1) / 2;
 }
+
 
